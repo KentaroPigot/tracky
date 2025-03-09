@@ -6,3 +6,8 @@ api_platform:
     jsonld: ["application/ld+json", "application/json"]
     html: ["text/html"]
     csv: ["text/csv"]
+  swagger:
+    api_keys:
+      JWT:
+        name: Authorization
+        type: header
