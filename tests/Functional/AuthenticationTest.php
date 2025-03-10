@@ -11,7 +11,7 @@ class AuthenticationTest extends ApiTestCase
 {
     use ReloadDatabaseTrait;
 
-    public function testLogin(): void
+    public function testLogin(): voidZ
     {
         $client = self::createClient();
         $container = self::getContainer();
